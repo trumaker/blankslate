@@ -12,7 +12,7 @@ describe BlankSlate do
     it "should not have many methods" do
       BlankSlate.instance_methods.
         map(&:to_s).sort.
-        should == ["__id__", "__send__", "instance_eval"]
+        should == ["__id__", "__send__", "instance_eval", "object_id"]
     end 
   end
   
