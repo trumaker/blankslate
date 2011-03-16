@@ -1,4 +1,5 @@
-require 'spec_helper'
+require 'blankslate'
+require 'rspec'
 
 describe BlankSlate do
   let(:blank_slate) { BlankSlate.new }
